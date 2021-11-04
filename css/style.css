@@ -1,4 +1,4 @@
-header{
+body > header{
     background-color: pink;
     font-size: 40px;
     display: flex;
@@ -6,6 +6,9 @@ header{
     justify-content: center;
     align-items: center;
     color:white;
+    position: sticky;
+    top: 0;
+    left: 0;
 
 }
 nav{
@@ -36,4 +39,29 @@ h2{
 body{
     text-align: center;
 }
+
+footer{
+    background-color: pink;
+    padding-top: 10px;
+    color: white;
+}
+
+.photo{
+    width: 450px;
+    border: 20px solid pink;
+
+}
+
+div.breakfast p, div.lunch p {
+    text-align: left;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
   
