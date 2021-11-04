@@ -48,16 +48,28 @@ footer{
 
 .photo{
     width: 450px;
+    height: 500px;
     border: 20px solid pink;
 
 }
 
-div.breakfast p, div.lunch p {
+div.breakfast p, div.lunch p, div.dinner p, div.dinner_2 p{
     text-align: left;
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+h1{
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.act_photo{
+    height: 400px;
+    width: 400px;
+    border: 20px solid pink;
 }
 
 
