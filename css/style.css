@@ -1,0 +1,39 @@
+header{
+    background-color: pink;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+}
+nav{
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#about_image{
+    width: 100%;
+    height: auto; 
+}
+
+h2{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+  
