@@ -5,7 +5,7 @@ body > header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:white;
+    color: black;
     position: sticky;
     top: 0;
     left: 0;
@@ -43,7 +43,11 @@ body{
 footer{
     background-color: pink;
     padding-top: 10px;
-    color: white;
+    color: black;
+}
+
+footer p{
+    padding-bottom:10px;
 }
 
 .photo{
@@ -71,6 +75,32 @@ h1{
     width: 400px;
     border: 20px solid pink;
 }
+
+#current{
+    border-top: dashed black 2px;
+    border-right: dashed black 2px;
+    border-left: dashed black 2px;
+    color: black;
+}
+
+.beach{
+    width: 450px;
+    height: 450px;
+}
+
+.photo_div{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+p{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+
 
 
 
