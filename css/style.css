@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat', serif;
+}
 body > header{
     background-color: pink;
     font-size: 40px;
@@ -98,6 +101,10 @@ p{
     margin-right: 20px;
     margin-left: 20px;
     padding-bottom: 10px;
+}
+
+.container{
+    display: grid;
 }
 
 
